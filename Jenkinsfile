@@ -1,7 +1,7 @@
 def repo="https://shailendra14k.github.io/sample-helm-chart/"
 pipeline{
 		agent{
-			label any
+			label 'any'
 		}
 		stages{
 				
